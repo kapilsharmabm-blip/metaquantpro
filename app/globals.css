@@ -8,50 +8,8 @@ body {
   background-color: #000;
   color: #fff;
 }
-export default function Home() {
-  return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-4">
-      <h1 className="text-6xl md:text-7xl font-extrabold mb-6 text-center">
-        MetaQuant<span className="text-blue-500">Pro</span>
-      </h1>
 
-      <p className="text-lg md:text-2xl text-gray-300 text-center max-w-2xl mb-8">
-        Your AI-powered Trading Assistant — combining live market insights, news, education, and analytics to help traders make smarter decisions.
-      </p>
-
-      <a
-        href="#features"
-        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition duration-300 shadow-lg hover:scale-105"
-      >
-        🚀 Explore Now
-      </a>
-
-      <section id="features" className="grid md:grid-cols-3 gap-6 mt-16 max-w-5xl w-full">
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
-          <h2 className="text-xl font-bold text-blue-400 mb-2">Live Market Insights</h2>
-          <p className="text-gray-400 text-sm">
-            Stay ahead with real-time market updates, AI-powered sentiment analysis, and top trader signals.
-          </p>
-        </div>
-
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
-          <h2 className="text-xl font-bold text-blue-400 mb-2">AI Analytics</h2>
-          <p className="text-gray-400 text-sm">
-            Get smart analysis on your trades and learn how to optimize your strategy using data-driven insights.
-          </p>
-        </div>
-
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
-          <h2 className="text-xl font-bold text-blue-400 mb-2">Trading Education</h2>
-          <p className="text-gray-400 text-sm">
-            Learn step-by-step with AI-curated lessons and build a solid foundation in professional trading.
-          </p>
-        </div>
-      </section>
-
-      <footer className="mt-16 text-gray-600 text-sm">
-        © 2025 MetaQuantPro — Built for Traders, by Traders.
-      </footer>
-    </main>
-  );
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
